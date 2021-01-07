@@ -1,0 +1,71 @@
+.mail{
+  padding: 0 0 85px;
+
+  &__line{
+    width: 1100px;
+    height: 1px;
+    border: 1px solid #E0E0E0;
+    margin: 85px auto 85px;
+  }
+  &__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+  &__subTitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    margin-top: 20px;
+  }
+  form{
+    margin: 30px auto 0;
+    text-align: center;
+    label {
+      input{
+        font-family: Montserrat ;
+        padding: 15px 149px 13px 33px;
+        border: 1px solid #F2F2F2;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+        border-radius: 30px;
+        background: #FFFFFF;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        color: #999999;
+      }
+      button{
+        font-family: Montserrat ;
+        background: #4985FF;
+        box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+        border-radius: 0 30px 30px 0;
+        padding: 13px 36px 15px 26px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-left: -25px;
+        border: none;
+
+      }
+    }
+  }
+  &__text{
+    margin: 35px auto 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+  }
+}

@@ -1,0 +1,51 @@
+.projects{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 145px;
+  background: #F6F6F8;
+  .container{
+
+  }
+
+  &__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+  }
+  &__subTitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    margin: 50px auto 0;
+    max-width: 730px;
+
+  }
+  &__column{
+    display: flex;
+
+    margin-top: 70px;
+  }
+  .project-button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 36px;
+    background: #4985FF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    display: block;
+    width: 200px;
+    margin: 50px auto 0;
+
+  }
+}

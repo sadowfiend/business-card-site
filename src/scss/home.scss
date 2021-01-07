@@ -1,0 +1,45 @@
+.home {
+  background: url("../img/main/rectangle.png") center/cover;
+  padding: 319px 0 335px;
+  text-align: center;
+
+  &__block{
+    display: flex;
+    max-width: 830px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+  }
+  &__subtitle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0 0 50px;
+    color: #FFFFFF;
+  }
+
+  &__button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 36px;
+    background: #4985FF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+
+  }
+}
